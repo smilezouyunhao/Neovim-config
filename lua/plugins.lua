@@ -13,4 +13,7 @@ packer.startup(function(use)
 
     -- Plugins列表
 
+    -- TokyoNight theme
+    use 'folke/tokyonight.nvim'
+
 end)
