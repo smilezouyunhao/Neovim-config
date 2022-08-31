@@ -6,9 +6,13 @@
 -- |_| \_|\___|\___/ \_/ |_|_| |_| |_| |___|_| |_|_|\__|
 -- =====================================================                                                     
 
--- 配置插件
+-- Basic-config
+require('basic')
+-- Config Plugins
 require('plugins')
+-- Maps
+require('maps')
 
--- 插件配置导入
--- colorscheme配置
+-- Plugins-config import
+-- colorscheme-config
 require('colorscheme')
