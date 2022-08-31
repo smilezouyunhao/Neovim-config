@@ -15,4 +15,6 @@ require('maps')
 
 -- Plugins-config import
 -- colorscheme-config
-require('colorscheme')
+require('plugins.colorscheme')
+-- lualine-config
+require('plugins.lualine')
