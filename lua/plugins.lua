@@ -18,4 +18,10 @@ packer.startup(function(use)
   -- Lualine
   use {'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true }}
 
+  -- LSP
+  -- nvim-lsp-installer (Auto install server) 
+  use 'williamboman/nvim-lsp-installer'
+  -- nvim-lspconfig
+  use 'neovim/nvim-lspconfig'
+
 end)

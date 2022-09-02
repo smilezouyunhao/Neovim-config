@@ -18,3 +18,7 @@ require('maps')
 require('plugins.colorscheme')
 -- lualine-config
 require('plugins.lualine')
+
+-- LSP
+-- nvim-lsp-installer (Auto install server)
+require('lsp.install')
