@@ -1,6 +1,14 @@
+-- ==================================================
+--  _     ____  ____      ___           _            
+-- | |   / ___||  _ \    |_ _|_ __  ___| |_ ___ _ __ 
+-- | |   \___ \| |_) |____| || '_ \/ __| __/ _ \ '__|
+-- | |___ ___) |  __/_____| || | | \__ \ ||  __/ |   
+-- |_____|____/|_|       |___|_| |_|___/\__\___|_|   
+-- ==================================================
+
 local status, server_install = pcall(require, "nvim-lsp-installer")
 
-if not server_install then
+if not status then
   print("nvim-lsp-installer is not installed")
   return
 end
@@ -20,3 +28,4 @@ server_install.setup({
     }
   }
 })
+

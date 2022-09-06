@@ -18,9 +18,12 @@ require('maps')
 require('plugins.colorscheme')
 -- lualine-config
 require('plugins.lualine')
+-- telescope-config
+require('plugins.telescope')
 
 -- LSP
 -- nvim-lsp-installer (Auto install server)
 require('lsp.install')
 -- lspconfig
 require('lsp.lspconfig')
+
