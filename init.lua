@@ -22,3 +22,5 @@ require('plugins.lualine')
 -- LSP
 -- nvim-lsp-installer (Auto install server)
 require('lsp.install')
+-- lspconfig
+require('lsp.lspconfig')
