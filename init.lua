@@ -20,6 +20,8 @@ require('plugins.colorscheme')
 require('plugins.lualine')
 -- telescope-config
 require('plugins.telescope')
+-- nvim-treesitter
+require('plugins.treesitter')
 
 -- LSP
 -- nvim-lsp-installer (Auto install server)
