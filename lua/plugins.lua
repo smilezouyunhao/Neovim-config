@@ -40,6 +40,8 @@ packer.startup(function(use)
   use 'kyazdani42/nvim-tree.lua'
   -- Zen-mode
   use 'folke/zen-mode.nvim'
+  -- Indent-blankline
+  use 'lukas-reineke/indent-blankline.nvim'
 
   -- LSP
   -- nvim-lsp-installer (Auto install server) 

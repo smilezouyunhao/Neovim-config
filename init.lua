@@ -28,6 +28,8 @@ require('plugins.treesitter')
 require('plugins.nvim-tree')
 -- zen-mode
 require('plugins.zen-mode')
+-- indent-blankline
+require('plugins.indent-blankline')
 
 -- LSP
 -- nvim-lsp-installer (Auto install server)
