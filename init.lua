@@ -26,6 +26,8 @@ require('plugins.telescope')
 require('plugins.treesitter')
 -- nvim-tree
 require('plugins.nvim-tree')
+-- zen-mode
+require('plugins.zen-mode')
 
 -- LSP
 -- nvim-lsp-installer (Auto install server)
