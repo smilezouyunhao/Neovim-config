@@ -30,6 +30,8 @@ require('plugins.nvim-tree')
 require('plugins.zen-mode')
 -- indent-blankline
 require('plugins.indent-blankline')
+-- gitsigns
+require('plugins.gitsigns')
 
 -- LSP
 -- nvim-lsp-installer (Auto install server)

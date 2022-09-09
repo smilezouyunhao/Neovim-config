@@ -42,6 +42,8 @@ packer.startup(function(use)
   use 'folke/zen-mode.nvim'
   -- Indent-blankline
   use 'lukas-reineke/indent-blankline.nvim'
+  -- Gitsigns
+  use 'lewis6991/gitsigns.nvim'
 
   -- LSP
   -- nvim-lsp-installer (Auto install server) 
