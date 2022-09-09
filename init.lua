@@ -18,6 +18,8 @@ require('maps')
 require('plugins.colorscheme')
 -- lualine-config
 require('plugins.lualine')
+-- bufferline-config
+require('plugins.bufferline')
 -- telescope-config
 require('plugins.telescope')
 -- nvim-treesitter

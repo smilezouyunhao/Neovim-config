@@ -28,6 +28,8 @@ packer.startup(function(use)
   use 'kyazdani42/nvim-web-devicons'
   -- Lualine
   use 'nvim-lualine/lualine.nvim'
+  -- Bufferline
+  use 'akinsho/bufferline.nvim'
   -- Telescope
   use {'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim' }}
   -- Telescope-file-browser
