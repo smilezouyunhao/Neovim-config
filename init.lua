@@ -24,6 +24,8 @@ require('plugins.bufferline')
 require('plugins.telescope')
 -- nvim-treesitter
 require('plugins.treesitter')
+-- nvim-tree
+require('plugins.nvim-tree')
 
 -- LSP
 -- nvim-lsp-installer (Auto install server)

@@ -22,6 +22,16 @@ bufferline.setup{
       style = 'icon',
     },
 
+    offsets = {
+      {
+        filetype = "NvimTree",
+        text = "File Explorer",
+        text_align = "center",
+        highlight = "Directory",
+        separator = true
+      }
+    },
+
     -- diagnostics display
     diagnostics = "nvim_lsp",
     diagnostics_indicator = function(count, level, diagnostics_dict, context)
@@ -32,13 +42,6 @@ bufferline.setup{
       end
       return s
     end,
-
-    -- offsets = {
-    --   filetype = "NvimTree",
-    --   text = "File Explorer",
-    --   text_align = "center",
-    --   separator = true
-    -- },
   }
 }
 
