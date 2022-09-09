@@ -24,8 +24,10 @@ packer.startup(function(use)
 
   -- TokyoNight theme
   use 'folke/tokyonight.nvim'
+  -- Nvim-web-devicons
+  use 'kyazdani42/nvim-web-devicons'
   -- Lualine
-  use {'nvim-lualine/lualine.nvim', requires = { 'kyazdani42/nvim-web-devicons', opt = true }}
+  use 'nvim-lualine/lualine.nvim'
   -- Telescope
   use {'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim' }}
   -- Telescope-file-browser
