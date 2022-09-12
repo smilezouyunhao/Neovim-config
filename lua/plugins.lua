@@ -50,5 +50,15 @@ packer.startup(function(use)
   use 'williamboman/nvim-lsp-installer'
   -- nvim-lspconfig
   use 'neovim/nvim-lspconfig'
+  -- nvim-cmp(completion engine)
+  use {
+    'hrsh7th/nvim-cmp', requires = {
+      'hrsh7th/vim-vsnip',
+      'hrsh7th/cmp-nvim-lsp',
+      'hrsh7th/cmp-buffer',
+      'onsails/lspkind-nvim',
+      'hrsh7th/cmp-path'
+    }
+  }
 
 end)

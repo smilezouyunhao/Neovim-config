@@ -38,4 +38,6 @@ require('plugins.gitsigns')
 require('lsp.install')
 -- lspconfig
 require('lsp.lspconfig')
+-- nvim-cmp
+require('lsp.lsp-cmp')
 

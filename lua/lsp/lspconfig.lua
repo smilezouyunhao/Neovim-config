@@ -69,3 +69,8 @@ lsp_config.sumneko_lua.setup {
     },
   },
 }
+
+-- clangd
+lsp_config.clangd.setup {
+  on_attach = on_attach,
+}
