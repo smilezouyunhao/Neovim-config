@@ -40,4 +40,6 @@ require('lsp.install')
 require('lsp.lspconfig')
 -- nvim-cmp
 require('lsp.lsp-cmp')
+-- ui
+require('lsp.ui')
 

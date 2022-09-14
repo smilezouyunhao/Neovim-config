@@ -21,6 +21,9 @@ vim.wo.relativenumber = true
 -- window title
 vim.opt.title = true
 
+-- left side sign
+vim.wo.signcolumn = "yes"
+
 -- highlight cursorline
 vim.wo.cursorline = true
 
