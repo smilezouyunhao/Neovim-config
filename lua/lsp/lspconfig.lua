@@ -18,8 +18,10 @@ local opts = { noremap = true, silent = true }
 local maps = vim.keymap
 
 -- Diagnostic
-maps.set('n', '[d', vim.diagnostic.goto_prev, opts)
-maps.set('n', ']d', vim.diagnostic.goto_next, opts)
+--maps.set('n', '[d', vim.diagnostic.goto_prev, opts)
+maps.set("n", "[d", "<cmd>Lspsaga diagnostic_jump_prev<cr>", opts)
+--maps.set('n', ']d', vim.diagnostic.goto_next, opts)
+maps.set("n", "]d", "<cmd>Lspsaga diagnostic_jump_next<cr>", opts)
 maps.set('n', ';;', vim.diagnostic.setloclist, opts)
 
 -- on_attach function
@@ -29,10 +31,12 @@ local on_attach = function(client, bufnr)
 
   -- Mappings
   local bufopts = { noremap = true, silent = true, buffer = bufnr }
-  maps.set('n', 'gh', vim.lsp.buf.hover, bufopts)
+  --maps.set('n', 'gh', vim.lsp.buf.hover, bufopts)
+  maps.set("n", "gh", "<cmd>Lspsaga hover_doc<cr>", bufopts)
   maps.set('n', 'gi', vim.lsp.buf.implementation, bufopts)
   maps.set('n', 'gr', vim.lsp.buf.references, bufopts)
-  maps.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
+  --maps.set('n', '<space>rn', vim.lsp.buf.rename, bufopts)
+  maps.set("n", "<space>rn", "<cmd>Lspsaga rename<CR>", bufopts)
   maps.set('n', '<space>f', vim.lsp.buf.formatting, bufopts)
 end
 

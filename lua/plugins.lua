@@ -60,5 +60,7 @@ packer.startup(function(use)
       'hrsh7th/cmp-path'
     }
   }
+  -- lspsaga
+  use 'tami5/lspsaga.nvim'
 
 end)
