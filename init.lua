@@ -32,6 +32,8 @@ require('plugins.zen-mode')
 require('plugins.indent-blankline')
 -- gitsigns
 require('plugins.gitsigns')
+-- dashboard
+require('plugins.alpha-nvim')
 
 -- LSP
 -- nvim-lsp-installer (Auto install server)

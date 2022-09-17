@@ -44,6 +44,8 @@ packer.startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim'
   -- Gitsigns
   use 'lewis6991/gitsigns.nvim'
+  -- alpha-nvim
+  use 'goolord/alpha-nvim'
 
   -- LSP
   -- nvim-lsp-installer (Auto install server) 
